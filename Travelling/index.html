@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelling Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- make this inline or inl-blk -->
+    <header>
+      <div class="voyage">
+        VOYAGE
+      </div>
+      <!-- take off the dots -->
+      <nav class="nave">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Crushes</a></li>
+          <li><a href="#">Special</a></li>
+          <li><a href="#">Holidays</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- align -->
+    <section>
+      <div class="sec">
+        <h1 style="font-size: 3rem; font-weight: 500;">TO TRAVEL IS TO LIVE</h1>
+        <p style="padding-top: 30px; font-size: large; font-weight: 500;">
+          You Don't Need Magic to Disappear. All You Need is a Destination
+        </p>
+        <br />
+        <!-- ot: bkg=blu n radius n col=wht -->
+        <a href="#"><button class="l">SHOW ON THE MAP</button></a>
+        <!-- ot: radius n col=wht -->
+        <a href="#"><button class="l">MORE INFO</button></a>
+      </div>
+    </section>
+    <footer>
+      <!-- inline block -->
+      <div class="fot">
+        <div
+          style="
+            float: left;
+            padding-top: 20px;
+            transform: translateX(350px);
+            width: 20px;
+            font-weight: 600;
+            font-size: medium;
+          "
+        >
+          FIND YOUR HOLIDAYS
+        </div>
+        <form
+          style="
+            text-align: center;
+            padding: 30px;
+            transform: translateX(10px);
+            font-size: 1rem;
+          "
+          action=""
+        >
+          <label for="where">Where to</label>
+          <input
+            type="text"
+            name="where"
+            placeholder="Destination"
+            class="i2"
+            id=""
+          />
+          <label for="when">When</label>
+          <input
+            type="text"
+            name="when"
+            class="i2"
+            placeholder="Enter the date"
+            id=""
+          />
+          <!-- bkg=grn -->
+          <button
+            style="
+              width: 60px;
+              height: 30px;
+              margin-left: 20px;
+              background-color: green;
+            "
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
