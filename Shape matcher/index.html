@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape matcher</title>
+    <style>
+        button{
+            width: 300px;
+            height: 50px;
+            margin: 25px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="height: 90vh;">
+    <div style="background-color: khaki; text-align: center;height: 42vh;padding-top: 40px;">
+        <!-- BUTTON TO START THE GAME -->
+        <button style="background-color: green;border-radius: 10px;" id="play">PLAY</button><br>
+        <h4>Press the 'MATCH' button when the two shapes match.</h4>
+        <!-- BUTTON FOR MATCH -->
+        <button style="background-color: red;border-radius: 50px;" id="match">MATCH</button>
+        <p>Score: <span id="score">0</span></p>
+    </div>
+    <section>
+        <!-- SPAN WHERE 1ST SHAPE APPEARS -->
+        <div id="shape1"></div>
+        <!-- SPAN WHERE 2ND SHAPE APPEARS -->
+        <div id="shape2"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
