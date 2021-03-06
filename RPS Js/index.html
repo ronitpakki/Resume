@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="outer">
+        <h1 style="border: 5px solid black;">Challenge:Rock,Paper and Scissors</h1>
+        <div class="questions" style="border:5px solid black;">
+            <img src="rock.jpg" id="rock" onclick="game(this)" alt="">
+            <img src="paper.jpeg" id="paper" onclick="game(this)" alt="">
+            <img src="scissors.png" id="scissors" onclick="game(this)" alt="">
+        </div>
+        <div class="answers">
+            <span id="me" style="float: left;display: flexbox;flex-wrap: wrap;width: 640px;"></span>
+            <span class="center" id="result">V/S</span>
+            <span id="comp" style="float: right;display: flexbox;flex-wrap: wrap;width: 640px;"></span>
+        </div>
+    </div>
+</body>
+</html>

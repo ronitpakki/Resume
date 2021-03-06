@@ -1,0 +1,16 @@
+.outer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    margin-left:50px ;
+    margin-right:50px ;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img:hover{
+    box-shadow:0px 10px 50px rgba(38, 38, 218,0.5);
+}
