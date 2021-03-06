@@ -1,0 +1,54 @@
+body {
+  background: url("./field.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div {
+  width: 40%;
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+hr {
+  width: 100%;
+}
+.button {
+  min-width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: blue;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+}
+.button2 {
+  min-width: 200px;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  font-size: large;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+}
+h3 {
+  margin-top: -3%;
+  cursor: default;
+}
+h1 {
+  cursor: default;
+}
+.round {
+  margin: 3px auto;
+  min-width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+#fontsize {
+  margin: 20px auto;
+}
